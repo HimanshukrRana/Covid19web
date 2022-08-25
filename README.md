@@ -11,8 +11,7 @@ This website is made with Facebook's React JS library bootstraped with create-re
 If you want to give it your own touch , feel free to do so by cloning the project in your computer.
 
 ```bash
-git clone https://github.com/himanshu12345yadav/Coronavirus-Tracker.git
-cd Coronavirus-Tracker
+
 ```
 
 # Available Scripts
