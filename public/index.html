@@ -1,0 +1,56 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8" />
+  <link rel="icon" href="%PUBLIC_URL%/favicon.ico" />
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <meta name="theme-color" content="#000000" />
+  <meta name="author" content="Himanshu Yadav">
+  <meta name="description" content="Corona Virus Tracker " />
+  <link rel="manifest" href="%PUBLIC_URL%/manifest.json">
+  <link rel="preconnect" href="https://stackpath.bootstrapcdn.com">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://countryflags.io">
+  <link rel="dns-prefetch" href="https://api.covid19api.com">
+  <link rel="dns-prefetch" href="https://www.mygov.in">
+  <link rel="dns-prefetch" href="https://images.indianexpress.com">
+  <link rel="stylesheet" href="%PUBLIC_URL%/preloader.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.4.1/css/bootstrap.min.css">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css">
+  <link rel="stylesheet" href="https://unpkg.com/aos@2.3.1/dist/aos.css">
+  <title>CoronaVirus Tracker</title>
+</head>
+
+<body>
+  <noscript>You need to enable JavaScript to run this app.</noscript>
+  <div id="root">
+    <div class="bubble-wrapper">
+      <div class="ellipses">
+        <div class="ellipse" id="ellipse-1"></div>
+      </div>
+      <div class="ellipses">
+        <div class="ellipse" id="ellipse-2"></div>
+      </div>
+      <div class="ellipses">
+        <div class="ellipse" id="ellipse-3"></div>
+      </div>
+      <div class="ellipses">
+        <div class="ellipse" id="ellipse-4"></div>
+      </div>
+      <div class="ellipses">
+        <div class="ellipse" id="ellipse-5"></div>
+      </div>
+    </div>
+  </div>
+</body>
+
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<script src="https://unpkg.com/scrollreveal"></script>
+
+<script>
+  AOS.init({ once: "true", duration: '500', delay: '100', easing: 'ease-in-out' });
+  ScrollReveal().reveal('.precautions', { delay: 300, reset: false });
+</script>
+
+</html>
