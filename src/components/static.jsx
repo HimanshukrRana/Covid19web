@@ -52,7 +52,7 @@ const Static = () => {
                     <ul className="navbar-nav ml-auto">
                         <li className="nav-item px-3">
                             <a
-                                href="/Coronavirus-Tracker"
+                                href="#landing-page"
                                 className="nav-link active"
                             >
                                 Home
