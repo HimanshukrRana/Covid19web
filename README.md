@@ -1,6 +1,6 @@
 # About
 
-This is Covid-19 Tracker. A lightweight website which tracks Covid-19 in the real time. It also provides measures to protect yourself from the coronavirus. So it's worth checking out. You can check it in your browser by clicking [`here.`](https://covid19-web-hkr.netlify.app)
+This is Covid-19 Tracker. A lightweight website which tracks Covid-19 in the real time. It also provides measures to protect yourself from the coronavirus. So it's worth checking out. You can check it in your browser by clicking [`here.`](https://covid-19-web-tracker.netlify.app)
 
 # Technology Used
 
