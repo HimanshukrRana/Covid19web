@@ -27,7 +27,7 @@ const Static = () => {
                     className="navbar-brand justify-content-md-center p-0"
                     style={{ transform: 'rotate(-5deg)' }}
                 >
-                    <a href="/Coronavirus-Tracker" className="nav-link p-0">
+                    <a href="#" className="nav-link p-0">
                         <span
                             className="nav-text"
                             style={{
